@@ -6,7 +6,7 @@ import { FaInstagram } from "react-icons/fa6";
 const Footer = () => {
   return (
     <footer>
-      <a href="#" className='footer_logo'>Pranavi Kiran</a>
+      <a href="#" className='footer_logo'>Pranavi</a>
 
       <ul className="permalinks">
         <li><a href="#">Home</a></li>
