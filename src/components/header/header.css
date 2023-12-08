@@ -1,6 +1,6 @@
 header {
-    height: 100vh;
     padding-top: 7rem;
+    padding-bottom: 30rem;
     overflow: hidden;
 }
 
@@ -69,7 +69,7 @@ header {
 /* Media Queries for Responsive Design (Small Devices) */
 @media screen and (max-width: 600px) {
     header {
-        height: 120vh;    
+        height: 100vh;    
     }
 
     .header_socials, .scroll_down {
