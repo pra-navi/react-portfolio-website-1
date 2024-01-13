@@ -99,6 +99,18 @@ const Experience = () => {
                 <h4>Node.js</h4>
               </div>
             </article>
+            <article className="experience_details">
+              <IoMdCheckbox className="experience_details-icon"/>
+              <div>
+                <h4>TypeScript</h4>
+              </div>
+            </article>
+            <article className="experience_details">
+              <IoMdCheckbox className="experience_details-icon"/>
+              <div>
+                <h4>Go</h4>
+              </div>
+            </article>
           </div>
         </div>
       </div>
