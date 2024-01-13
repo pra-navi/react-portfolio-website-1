@@ -73,11 +73,11 @@ const Portfolio = () => {
                   <img src={image} alt={title} />
                 </div>
                 <h3>{title}</h3>
-                <div className="portfolio_item-tags">
+                <div className="tags">
                   {
                     tags.map((tag, index) => {
                       return (
-                        <span key={index}>{tag}</span>
+                        <span key={index} className="tag">#{tag}</span>
                       )
                     })
                   }
