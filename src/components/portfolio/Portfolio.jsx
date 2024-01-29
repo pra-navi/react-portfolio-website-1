@@ -1,56 +1,65 @@
 import React from 'react'
 import './portfolio.css'
-import Portfolio1 from "../../assets/Learners.png"
-import Portfolio2 from "../../assets/CoordiMate.png"
-import Portfolio3 from "../../assets/Sally.png"
-import Portfolio4 from "../../assets/Memorise.png"
-import Portfolio5 from "../../assets/CommunityConnects.png"
-import Portfolio6 from "../../assets/TrailBlaze.png"
+import Portfolio1 from "../../assets/learners-migrated.png"
+import Portfolio2 from "../../assets/Learners.png"
+import Portfolio3 from "../../assets/CoordiMate.png"
+import Portfolio4 from "../../assets/Sally.png"
+import Portfolio5 from "../../assets/Memorise.png"
+import Portfolio6 from "../../assets/CommunityConnects.png"
+import Portfolio7 from "../../assets/TrailBlaze.png"
 
 const data = [
   {
     id: 1,
     image: Portfolio1,
+    title: "LEARNers- Migrated Version",
+    tags: ["React", "Postgres", "Express", "Node", "TypeScript", "HTML", "CSS"],
+    internal: "https://github.com/pra-navi/cvwo_submission",
+    external: "https://github.com/pra-navi/cvwo_submission/blob/main/README.md"
+  },
+  {
+    id: 2,
+    image: Portfolio2,
     title: "LEARNers",
     tags: ["React", "MongoDB", "Express.js", "Node.js", "JavaScript", "HTML", "CSS"],
     internal: "https://github.com/pra-navi/orbital-mern",
     external: "https://learners-react.vercel.app/posts"
   },
   {
-    id: 2,
-    image: Portfolio2,
+    id: 3,
+    image: Portfolio3,
     title: "CoordiMate",
     tags: ["Java", "JavaFX", "CSS"],
     internal: "https://github.com/AY2324S1-CS2103T-T10-2/tp",
     external: "https://github.com/AY2324S1-CS2103T-T10-2/tp/releases/tag/v1.4"
   },
   {
-    id: 3,
-    image: Portfolio3,
+    id: 4,
+    image: Portfolio4,
     title: "Sally",
     tags: ["Java", "JavaFX", "CSS"],
     internal: "https://github.com/pra-navi/ip",
     external: "https://github.com/pra-navi/ip/releases/tag/A-Release"
   },
   {
-    id: 4,
-    image: Portfolio4,
+    id: 5,
+    image: Portfolio5,
     title: "MEMOrise",
     tags: ["HTML", "CSS"],
     internal: "https://github.com/suryanshkushwaha/lifehack23-MEMOrise",
     external: "https://lh23-memorise-1.vercel.app/"
   },
   {
-    id: 5,
-    image: Portfolio5,
+    id: 6,
+    image: Portfolio6,
     title: "CommunityConnects",
     tags: ["Figma", "UI/UX Design"],
     internal: "https://docs.google.com/presentation/d/1Q_3CfGWLCXcwvsiJYiWIs_aXCpiRKh7LUKhDRP4EssE/edit#slide=id.p",
     external: "https://www.figma.com/file/2708wfrF5b9qnR8NjTpUXn/CommunityConnects?type=design&node-id=0-1&mode=design&t=GuabWHXOOkZlS6yT-0"
   },
   {
-    id: 6,
-    image: Portfolio6,
+    id: 7,
+    image: Portfolio7,
     title: "TrailBlaze",
     tags: ["Figma", "UI/UX Design"],
     internal: "https://docs.google.com/presentation/d/14_AgCwxbRhx6QOEVm31qfzke03UtflOI6a9tY1Qrr9I/edit#slide=id.p",

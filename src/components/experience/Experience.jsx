@@ -108,7 +108,7 @@ const Experience = () => {
             <article className="experience_details">
               <IoMdCheckbox className="experience_details-icon"/>
               <div>
-                <h4>Go</h4>
+                <h4>C++</h4>
               </div>
             </article>
           </div>
