@@ -70,8 +70,9 @@ const data = [
 const Portfolio = () => {
   return (
     <section id='portfolio'>
-      <h5>My Recent Work</h5>
-      <h2>Portfolio</h2>
+      <h5>My Recent Works</h5>
+      <h2>Portfolio - Purely Pet Projects</h2>
+      <h5>Other private projects done under business needs can be discussed separately</h5>
 
       <div className="container portfolio_container">
         {

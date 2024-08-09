@@ -49,6 +49,18 @@ const Experience = () => {
                 <h4>CSS</h4>
               </div>
             </article>
+            <article className="experience_details">
+              <IoMdCheckbox className="experience_details-icon"/>
+              <div>
+                <h4>PyQt</h4>
+              </div>
+            </article>
+            <article className="experience_details">
+              <IoMdCheckbox className="experience_details-icon"/>
+              <div>
+                <h4>API</h4>
+              </div>
+            </article>
           </div>
         </div>
         
@@ -103,6 +115,12 @@ const Experience = () => {
               <IoMdCheckbox className="experience_details-icon"/>
               <div>
                 <h4>TypeScript</h4>
+              </div>
+            </article>
+            <article className="experience_details">
+              <IoMdCheckbox className="experience_details-icon"/>
+              <div>
+                <h4>Firebase</h4>
               </div>
             </article>
             <article className="experience_details">
